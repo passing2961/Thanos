@@ -98,3 +98,6 @@ if __name__ == "__main__":
     explanation, skill = run_single_inference(model_path, social_context, dialogue)
     print("Explanation:", explanation)
     print("Skill:", skill)
+
+    # Explanation: I'm curious about Tom's preference for Burger King since I prefer McDonald's. By asking him why he prefers Burger King, I can better understand his taste and preferences.
+    # Skill: Clarification
