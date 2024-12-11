@@ -1,0 +1,1098 @@
+[
+	{
+		"index": "9:953",
+		"dialogue": [
+			{
+				"speaker": "User 1",
+				"utter": "What's up?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Not much, just getting ready for my senior year of high school."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Oh, that's exciting! Are you nervous?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "A little bit, but I'm mostly excited."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "That's good. I'm sure it'll be a great year."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Thanks, I hope so."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "So, what are you looking forward to most about senior year?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I'm excited to take some harder classes, and I'm also excited to start looking at colleges."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "That's cool. I'm sure you'll find the perfect college for you."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Thanks, I hope so."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "So, what's your favorite sport?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "My favorite sport is hockey."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Oh, cool! I love hockey too. What team do you like?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I like the Boston Bruins."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Nice! I'm a fan of the Tampa Bay Lightning."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Oh, nice! We should go to a game together sometime."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "That would be fun!"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "So, what do you like to do for fun?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I like to play video games, go for walks, and read."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Oh, cool. I like to play video games too. What's your favorite video game?"
+			}
+		],
+		"social_context_prompt": "User 1's Profile:\n- I drive a moped.\n- I like to take cold showers.\n- My favorite video game is halo 3.\n- I struggle with maintaining eye contact.\n\nUser 2's Profile:\n- My favorite sport is hockey.\n- I start my senior year of high school next week.\n- I went to japan this summer.\n- My mom is a painter.",
+		"generation": "```json\n[\n    {\n        \"skill\": \"Preference Elicitation\",\n        \"explanation\": \"After hearing User 1 mention their hobbies, I became curious about their specific interests in video games to find common ground.\",\n        \"counterfactual response\": \"That's great! Reading can be very relaxing. What kind of books do you enjoy reading?\"\n    }\n]\n```",
+		"input_token_cnt": 1071,
+		"output_token_cnt": 77,
+		"parsed_generation": [
+			{
+				"skill": "Preference Elicitation",
+				"explanation": "After hearing User 1 mention their hobbies, I became curious about their specific interests in video games to find common ground.",
+				"counterfactual response": "That's great! Reading can be very relaxing. What kind of books do you enjoy reading?"
+			}
+		]
+	},
+	{
+		"index": "8:2206",
+		"dialogue": [
+			{
+				"speaker": "User 1",
+				"utter": "Hi, I'm user 1."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Hi, I'm user 2."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "What do you like to do for fun?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I like to climb and love my parrot, Todd."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I love to exercise too! And I like makeup."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Oh, you're into beauty? That's cool."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Yeah, I love it. I'm always trying new products and techniques."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Me too! I'm always trying to find ways to make myself look more beautiful."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I think you're already beautiful."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Thanks! You're so sweet."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "You're welcome. What do you think of my makeup?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I think it looks great! You did a great job."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Thanks! I'm glad you like it."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I do. You look really nice."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Thanks! I feel nice too."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I'm glad."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Me too."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Well, I have to go now. It was nice talking to you."
+			}
+		],
+		"social_context_prompt": "User 1's Profile:\n- I have a nice smile.\n- I love to exercise.\n- Many people want to be my friend.\n- I like makeup.\n\nUser 2's Profile:\n- I am the oldest of 5 children.\n- I m a disappointment to my family.\n- I love my parrot , todd.\n- I love to climb.\n- I ve never been to the beach.",
+		"generation": "```json\n[\n    {\n        \"skill\": \"Immediate Response\",\n        \"explanation\": \"As the conversation seems to have reached a natural pause, and there may be other commitments or a need to end the conversation politely, choosing an immediate response to smoothly conclude the interaction is appropriate.\",\n        \"counterfactual response\": \"Can we talk a bit more about your experiences with makeup?\"\n    }\n]\n```",
+		"input_token_cnt": 1019,
+		"output_token_cnt": 82,
+		"parsed_generation": [
+			{
+				"skill": "Immediate Response",
+				"explanation": "As the conversation seems to have reached a natural pause, and there may be other commitments or a need to end the conversation politely, choosing an immediate response to smoothly conclude the interaction is appropriate.",
+				"counterfactual response": "Can we talk a bit more about your experiences with makeup?"
+			}
+		]
+	},
+	{
+		"index": "15:7495",
+		"dialogue": [
+			{
+				"speaker": "User 1",
+				"utter": "Hi! I'm (USER 1's name)."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Hi, I'm (USER 2's name)."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "It's nice to meet you!"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Nice to meet you too! What do you like to do for fun?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I like to collect rocks, zumba, and collect collectible dragon ball z figures."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I've never been zumba before! What is it like?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "It's a dance fitness class that's really fun and high energy. It's a great way to get in shape."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I love to dance, so I think I'll give it a try!"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Awesome! I'm sure you'll love it."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "What are some of your favorite rocks?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I love collecting agates, crystals, and fossils."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I've never really thought about collecting rocks before, but it sounds really cool."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "It's a lot of fun! You can find rocks all over the place, and it's always exciting to find a new one."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I'll have to keep an eye out for rocks when I'm out and about."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "You should! It's a great way to get outside and explore."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I do love getting outside. I have one cat, and we love going for walks in the park."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "That sounds like a lot of fun! I have a dog, and we love going for walks too."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Dogs are the best! What's your dog's name?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "His name is Buddy."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "That's a great name! I love it."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Thanks! I'm glad you like it."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Me too! So, what else do you like to do for fun?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I also like to sew. I've been sewing since I was a kid, and I love making clothes and other things."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "That's so cool! I've always wanted to learn how to sew, but I've never had the time."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "You should try it! It's a lot of fun, and it's really rewarding to make something yourself."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I will! Thanks for the tip."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "No problem! So, what do you do for fun?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I like to read, cook, and go to the movies."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I love to read too! What are some of your favorite books?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I love to read historical fiction and romance novels."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I love historical fiction too! I haven't read a lot of romance novels, but I've heard good things."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "They're a lot of fun! You should give them a try."
+			}
+		],
+		"social_context_prompt": "Information about User 1's Persona:\n- I like collectible dragon ball z figures.\n- I loove zumba.\n- I like collecting rocks.\n- I love the smell of beans.\n\nInformation about User 2's Persona:\n- I have one cat.\n- I am not thin.\n- I am short.\n- I like to sew.\n- My hair is brown.",
+		"generation": "```json\n[\n    {\n        \"skill\": \"Recommendation\",\n        \"explanation\": \"Seeing that User 1 has expressed interest in genres I enjoy, I recommend trying romance novels to potentially broaden their reading interests and share a personal favorite.\",\n        \"counterfactual response\": \"Romance novels aren't for everyone, maybe try science fiction instead.\"\n    }\n]\n```",
+		"input_token_cnt": 1368,
+		"output_token_cnt": 76,
+		"parsed_generation": [
+			{
+				"skill": "Recommendation",
+				"explanation": "Seeing that User 1 has expressed interest in genres I enjoy, I recommend trying romance novels to potentially broaden their reading interests and share a personal favorite.",
+				"counterfactual response": "Romance novels aren't for everyone, maybe try science fiction instead."
+			}
+		]
+	},
+	{
+		"index": "20:3636",
+		"dialogue": [
+			{
+				"speaker": "User 1",
+				"utter": "Hi! I'm [User 1's name]. What's your name?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Hi! I'm [User 2's name]. It's nice to meet you!"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "You too! What do you do for a living?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I'm a vegan chef."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Oh, that's cool! I've never met a vegan chef before."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Well, now you have! I love my job. It's so much fun to create delicious and nutritious meals that are also good for the environment."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "That's awesome. I love food, but I don't always eat healthy. I'm trying to eat healthier, though."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "That's great! I can help you with that. What's your favorite type of food?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I like all kinds of food, but I especially like Italian food."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Me too! I love making Italian food. I'll have to make you some vegan Italian food sometime."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "That would be great! I'd love to try it."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Awesome! We can get together sometime soon and I'll make you some pasta."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Sounds good!"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Great! I'll let you know when I'm free."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Perfect."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "So, what do you do for a living?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I'm a public affairs liaison for the National Guard."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Oh, that's cool! I've never met a public affairs liaison before."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Well, now you have! I love my job. It's so much fun to work with the media and share the stories of our soldiers."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "That sounds awesome. I love hearing the stories of our soldiers. They're so brave."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "They are! I'm so proud of them."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Me too!"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "So, what's your favorite music?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I love country music. I love the stories and the melodies."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Me too! I love country music. It's so nostalgic and relaxing."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I agree! It's the perfect music to listen to when you're just hanging out or driving."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Yeah, it is."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "So, what's your favorite country song?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I love \"The Dance\" by Garth Brooks. It's so beautiful and heartfelt."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Me too! I love that song. It's so sad but so beautiful."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "It is. It's one of my favorite songs of all time."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Me too!"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "So, what's your favorite movie?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I love \"The Princess Bride.\" It's so funny and heartwarming."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Me too! I love that movie. It's so quotable."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I agree! It's one of my favorite movies of all time."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Me too!"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "So, what's your favorite book?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I love \"The Hitchhiker's Guide to the Galaxy.\" It's so funny and clever."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Me too! I love that book. It's one of my favorite books of all time."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Me too!"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "So, what's your favorite TV show?"
+			}
+		],
+		"social_context_prompt": "Persona for User 1:\n- I eat too much fast food.\n- I love cold , wintry weather and snow.\n- I am a national guard officer.\n- I drive a 2011 volkswagen passat.\n- I work as a public affairs liaison.\n\nPersona for User 2:\n- I love my job.\n- I love all animals.\n- I used to work as an actress.\n- My favorite music is country.\n- I am a vegan.",
+		"generation": "```json\n[\n    {\n        \"skill\": \"Preference Elicitation\",\n        \"explanation\": \"Continuing the pattern of mutual sharing about favorites, such as music, movies, and books, I'm naturally curious to learn more about User 1's preferences, specifically regarding TV shows. This keeps our conversation engaging and helps in building a more detailed understanding of each other's likes and interests.\",\n        \"counterfactual response\": \"Let's talk about your job more instead.\"\n    }\n]\n```",
+		"input_token_cnt": 1505,
+		"output_token_cnt": 102,
+		"parsed_generation": [
+			{
+				"skill": "Preference Elicitation",
+				"explanation": "Continuing the pattern of mutual sharing about favorites, such as music, movies, and books, I'm naturally curious to learn more about User 1's preferences, specifically regarding TV shows. This keeps our conversation engaging and helps in building a more detailed understanding of each other's likes and interests.",
+				"counterfactual response": "Let's talk about your job more instead."
+			}
+		]
+	},
+	{
+		"index": "14:7512",
+		"dialogue": [
+			{
+				"speaker": "User 1",
+				"utter": "Hi! I'm [name]. What's your name?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Hi, my name is [name]."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "It's nice to meet you!"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "You too."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "What do you like to do for fun?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I like to play D&D, read fantasy novels, and eat nachos."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Those all sound like fun things to do! I like to play D&D too, and I love reading fantasy novels."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "That's great! I'm glad we have something in common."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "What's your favorite fantasy novel?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "It's hard to say, but I really like the Lord of the Rings series."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Me too! I'm a huge fan of the Lord of the Rings."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "What's your favorite part of the series?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I love the characters and the world building. It's all so immersive and believable."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I agree! The characters are all so well developed and the world is so rich and detailed."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "What's your favorite character?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I think my favorite character is Gimli. He's such a funny and lovable character."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Me too! He's one of my favorites too."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I'm glad we agree."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "So, what else do you like to do for fun?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I also like to watch movies and play video games."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "What's your favorite movie?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I have a lot of favorite movies, but one of my favorites is The Princess Bride."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Oh, I love that movie! It's so funny and heartwarming."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I agree! It's one of my all-time favorites."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "What's your favorite video game?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I like a lot of different video games, but one of my favorites is Skyrim."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I love Skyrim! It's such a huge and immersive world."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I agree! I love exploring all the different areas and finding new things."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "So, what are you up to this weekend?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I'm not sure yet. I might go to the movies or play video games."
+			}
+		],
+		"social_context_prompt": "Persona for User 1:\n- I met my birth mother when i was sixteen.\n- I work at a local party store.\n- I have several siblings i don t know.\n- Christmas is my favorite holiday.\n- I was adopted.\n\nPersona for User 2:\n- I hate talking to people.\n- I believe dragons are real.\n- I should beverage been born a prince.\n- I play d and d.\n- Nachos are my favorite food.",
+		"generation": "```json\n[\n    {\n        \"skill\": \"Immediate Response\",\n        \"explanation\": \"Given the casual and conversational nature of the dialogue, I chose to provide a straightforward and spontaneous response about my potential weekend plans.\",\n        \"counterfactual response\": \"Actually, I will be attending a D&D gaming tournament all weekend long.\"\n    }\n]\n```",
+		"input_token_cnt": 1274,
+		"output_token_cnt": 73,
+		"parsed_generation": [
+			{
+				"skill": "Immediate Response",
+				"explanation": "Given the casual and conversational nature of the dialogue, I chose to provide a straightforward and spontaneous response about my potential weekend plans.",
+				"counterfactual response": "Actually, I will be attending a D&D gaming tournament all weekend long."
+			}
+		]
+	},
+	{
+		"index": "12:7202",
+		"dialogue": [
+			{
+				"speaker": "User 1",
+				"utter": "What's your favorite thing to do?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I love to eat sushi!"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "That's cool! I love sushi too. Where's your favorite place to get it?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I love this little place in the city called Sushi Yoshi. It's so good."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I've never heard of it. I'll have to check it out."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "You should! It's the best!"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "So, what else do you like to do?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I love to go for walks in the park with my dog."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I love dogs! What kind of dog do you have?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I have a golden retriever named Buddy. He's the best dog ever."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I love golden retrievers! They're so friendly and loving."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "They are! Buddy is always so happy to see me."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "So, what else do you like to do?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I like to watch movies and play video games."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I like those things too! What's your favorite movie?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "My favorite movie is The Shawshank Redemption."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "That's a great movie! It's so moving and inspiring."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "It is! It's one of my favorite movies of all time."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "So, what's your favorite video game?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "My favorite video game is The Last of Us."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I've heard good things about that game. I'll have to check it out."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "You should! It's a great game."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "So, what else do you like to do?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I like to read books and go to the movies."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I like those things too! What's your favorite book?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "My favorite book is The Great Gatsby."
+			}
+		],
+		"social_context_prompt": "Details of User 1's Persona:\n- I once ran the mile in under 4 minutes.\n- My favorite thing to do is float the river.\n- My dad was a cop until he was killed.\n- I cannot go a single day without eating ice cream.\n\nDetails of User 2's Persona:\n- I love sushi.\n- I love dogs.\n- I own a car.\n- My favorite color is blue.\n- I am a girl.",
+		"generation": "```json\n[\n    {\n        \"skill\": \"Preference Elicitation\",\n        \"explanation\": \"Considering User 1's line of questioning about my favorite activities, showing a genuine interest in learning more about what I enjoy, continuing this pattern by asking about my favorite book seems appropriate. This will help keep the conversation engaging and flowing smoothly by focusing on personal interests.\",\n        \"counterfactual response\": \"I haven't read a book in years, honestly.\"\n    }\n]\n```",
+		"input_token_cnt": 1190,
+		"output_token_cnt": 98,
+		"parsed_generation": [
+			{
+				"skill": "Preference Elicitation",
+				"explanation": "Considering User 1's line of questioning about my favorite activities, showing a genuine interest in learning more about what I enjoy, continuing this pattern by asking about my favorite book seems appropriate. This will help keep the conversation engaging and flowing smoothly by focusing on personal interests.",
+				"counterfactual response": "I haven't read a book in years, honestly."
+			}
+		]
+	},
+	{
+		"index": "7:1589",
+		"dialogue": [
+			{
+				"speaker": "User 1",
+				"utter": "I like to go for walks in the woods on my property."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I like to go for walks in the woods too. I like to look for wildlife."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I like to look for wildlife too. I have 10 alpacas on my property."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "That's cool! I've never seen an alpaca before."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "They're pretty cool animals. They're very social and they like to be around people."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I can see why you like them. They sound like they would be great pets."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "They are. They're very friendly and easy to care for."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I'm thinking about getting a pet soon. I'm not sure what I want to get yet."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I think you should get an alpaca. They're great animals."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I'll look into it. Thanks for the suggestion."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "You're welcome."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "So, what else do you like to do on your property?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I like to garden. I grow a lot of my own fruits and vegetables."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "That's cool. I've always wanted to learn how to garden."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "It's not too hard. You just need to find some space, some seeds, and some water."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I'll have to give it a try."
+			}
+		],
+		"social_context_prompt": "User 1's Persona Information:\n- I have 10 alpacas.\n- I own a home with 5 acres of land.\n- I am active on my city council.\n- I only eat locally sourced food.\n- I like wide , open spaces.\n\nUser 2's Persona Information:\n- I visit animal shelters fairly often.\n- I am always looking for wildlife when i am outside.\n- I get along better with animals than people.\n- I enjoy watching animal videos on the internet.",
+		"generation": "```json\n[\n    {\n        \"skill\": \"Recommendation\",\n        \"explanation\": \"Given that User 1 has shared their positive experience with gardening and mentioned it's not too hard to start, I am motivated to consider trying it myself. The advice seems practical and comes from someone who has firsthand experience, which makes me feel more inclined to take it up.\",\n        \"counterfactual response\": \"Gardening seems too complicated for me to start now.\"\n    }\n]\n```",
+		"input_token_cnt": 1089,
+		"output_token_cnt": 99,
+		"parsed_generation": [
+			{
+				"skill": "Recommendation",
+				"explanation": "Given that User 1 has shared their positive experience with gardening and mentioned it's not too hard to start, I am motivated to consider trying it myself. The advice seems practical and comes from someone who has firsthand experience, which makes me feel more inclined to take it up.",
+				"counterfactual response": "Gardening seems too complicated for me to start now."
+			}
+		]
+	},
+	{
+		"index": "2:3682",
+		"dialogue": [
+			{
+				"speaker": "User 1",
+				"utter": "Hi!"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Hello!"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "How are you doing?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I'm doing well, thanks! How are you?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I'm doing great!"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "That's good to hear!"
+			}
+		],
+		"social_context_prompt": "Information about User 1's Persona:\n- I have a pug named corky.\n- My favorite place to go is the mall.\n- I enjoy playing tennis.\n- I am single and go on dates regularly.\n\nInformation about User 2's Persona:\n- Black coffee is my addiction.\n- My favorite hobby is gardening.\n- My family gets together every saturday.\n- I am 77 years old.\n- My husband died last year.",
+		"generation": "```json\n[\n    {\n        \"skill\": \"Active Listening\",\n        \"explanation\": \"Given the simple and friendly exchange of greetings and inquiries about well-being, employing active listening is appropriate. It shows that I am attentively engaged in the conversation and care about the interaction, keeping the dialogue smooth and amicable. This skill is pertinent as it involves acknowledging what User 1 has just shared about their current state, which is that they are doing great.\",\n        \"counterfactual response\": \"Could you repeat that, please?\"\n    }\n]\n```",
+		"input_token_cnt": 835,
+		"output_token_cnt": 112,
+		"parsed_generation": [
+			{
+				"skill": "Active Listening",
+				"explanation": "Given the simple and friendly exchange of greetings and inquiries about well-being, employing active listening is appropriate. It shows that I am attentively engaged in the conversation and care about the interaction, keeping the dialogue smooth and amicable. This skill is pertinent as it involves acknowledging what User 1 has just shared about their current state, which is that they are doing great.",
+				"counterfactual response": "Could you repeat that, please?"
+			}
+		]
+	},
+	{
+		"index": "9:605",
+		"dialogue": [
+			{
+				"speaker": "User 1",
+				"utter": "Hi! I'm [user 1 name]."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Hi! I'm [user 2 name]."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Nice to meet you! What do you do for fun?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I love to bake and cook."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "That's cool! I'm an artist."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Oh, what kind of art do you do?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I paint, draw, and sculpt."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "That's amazing! I'm always impressed by people who are creative."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Thanks! I'm glad you appreciate it. What's your favorite thing to bake?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I love to make bread."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "That's a classic choice. I love bread too."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Me too! It's so delicious and versatile."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "What's your favorite way to eat bread?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I love it with butter, jam, or cheese."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Me too! Those are all great options."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "What's your favorite flower?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I love roses."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Me too! They're so beautiful and fragrant."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "They are! I love the way they smell."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Me too! They're one of my favorite things about spring."
+			}
+		],
+		"social_context_prompt": "Details of User 1's Persona:\n- I am an artist.\n- I enjoy walking for exercise.\n- I have four children.\n- I love watching game of thrones.\n- I recently got a cat.\n\nDetails of User 2's Persona:\n- I am from texas.\n- I love to bake.\n- My mother is a retired teacher.\n- My favorite flower is a rose.",
+		"generation": "```json\n[\n    {\n        \"skill\": \"Commonsense Understanding\",\n        \"explanation\": \"Since we are discussing preferences and sharing things we enjoy, it makes sense to continue expressing common likes. Sharing common preferences in a conversation helps strengthen the connection and keeps the discussion engaging.\",\n        \"counterfactual response\": \"I've never really enjoyed spring, it's always too unpredictable for me.\"\n    }\n]\n```",
+		"input_token_cnt": 1046,
+		"output_token_cnt": 84,
+		"parsed_generation": [
+			{
+				"skill": "Commonsense Understanding",
+				"explanation": "Since we are discussing preferences and sharing things we enjoy, it makes sense to continue expressing common likes. Sharing common preferences in a conversation helps strengthen the connection and keeps the discussion engaging.",
+				"counterfactual response": "I've never really enjoyed spring, it's always too unpredictable for me."
+			}
+		]
+	},
+	{
+		"index": "11:4231",
+		"dialogue": [
+			{
+				"speaker": "User 1",
+				"utter": "Hi, I'm [user 1 name]."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Hello, I'm Omar."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Nice to meet you, Omar."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Nice to meet you too, [user 1 name]."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "What do you do for a living?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I play guitar in the local band."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "That's cool! I love music."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "Thanks! I'm glad you do."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "What kind of music do you play?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "We play a variety of genres, but we mostly play rock."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Cool! I love rock music."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "What's your favorite band?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I'm a big fan of The Beatles."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "The Beatles are great! I love their music."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Me too! They're one of my favorite bands."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "What's your favorite song by The Beatles?"
+			},
+			{
+				"speaker": "User 1",
+				"utter": "I can't pick just one! They have so many great songs."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I know what you mean. They're all so good."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Yeah, they're one of a kind."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "They really are."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "So, where are you from?"
+			},
+			{
+				"speaker": "User 2",
+				"utter": "I live on a small farm in Ohio."
+			},
+			{
+				"speaker": "User 1",
+				"utter": "Oh, cool! I've never been to Ohio."
+			},
+			{
+				"speaker": "User 2",
+				"utter": "It's a beautiful state."
+			}
+		],
+		"social_context_prompt": "Details of User 1's Persona:\n- My favorite food is steak.\n- My grandpa was in wwii.\n- My favorite genre of music is rock.\n- I do not know how to swim.\n- I own a chevy tahoe.\n\nDetails of User 2's Persona:\n- I play guitar in the local band.\n- I live on a small farm in ohio.\n- My name is omar.\n- I am the youngest of three brothers.",
+		"generation": "```json\n[\n    {\n        \"skill\": \"Self-disclosure\",\n        \"explanation\": \"In response to User 1's curiosity about Ohio, where I mentioned I live, I wanted to share a bit more about my place to foster a personal connection and continue the positive tone of our conversation. Sharing that it's a beautiful state contributes to building rapport by providing a personal insight into my life, rather than just stating a fact.\",\n        \"counterfactual response\": \"Ohio is quite diverse, actually.\"\n    }\n]\n```",
+		"input_token_cnt": 1091,
+		"output_token_cnt": 108,
+		"parsed_generation": [
+			{
+				"skill": "Self-disclosure",
+				"explanation": "In response to User 1's curiosity about Ohio, where I mentioned I live, I wanted to share a bit more about my place to foster a personal connection and continue the positive tone of our conversation. Sharing that it's a beautiful state contributes to building rapport by providing a personal insight into my life, rather than just stating a fact.",
+				"counterfactual response": "Ohio is quite diverse, actually."
+			}
+		]
+	}
+]
